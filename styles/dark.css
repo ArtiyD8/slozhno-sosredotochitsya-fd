@@ -1,16 +1,9 @@
-/*
-  Специально для тёмной темы при наличии класса,
-  здесь окажутся стили, которые нужно переопределить принудительно,
-  переключая тему
-*/
-
 :root.theme-dark {
   --page-background-image: url('../images/cover-image-dark.png');
 }
 
 @media (prefers-color-scheme: dark) {
-  .title-decor{
+  .title-decor {
     color: #000028;
   }
-  
 }
