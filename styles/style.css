@@ -92,7 +92,7 @@
 }
 
 .header__theme-menu-button:hover {
-  border: 1px solid var(--buttons-color);
+  border: 1px solid var(--menu-buttons-color-muted);
 }
 
 .header__theme-menu-button:focus-visible {
@@ -114,6 +114,7 @@
 .header__description {
   background-color: var(--accent-color);
   font-family: var(--font-family);
+  color: var(--decoration-color-text);
   font-weight: 700;
   font-size: 18px;
   line-height: 130%;
@@ -186,6 +187,7 @@
 .title-decor {
   background-color: var(--accent-color);
   font-family: var(--font-family);
+  color: var(--decoration-color-text);
   font-weight: 700;
   font-size: 18px;
   line-height: 130%;
@@ -201,12 +203,7 @@
 }
 
 .card-title-decor {
-  background-color: var(--accent-color);
-  font-family: var(--font-family);
-  color: var(--text-color);
   font-weight: 400;
-  font-size: 18px;
-  line-height: 130%;
 }
 
 .content__card-text {
@@ -449,10 +446,6 @@
 }
 
 @media (width >=1024px) {
-  .header__title {
-    font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
-  }
-
   .header__description {
     inline-size: 491px;
     max-inline-size: 491px;

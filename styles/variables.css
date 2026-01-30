@@ -5,11 +5,13 @@
   --accent-color: #ff0070;
   --text-color: #f1b2ce;
   --title-color: #DB00FF;
+  --title-color-cards: #ff0070;
   --title-second-color: #ff0070;
   --title-main-color: #ff0070;
   --decoration-color: #ff0070;
   --menu-buttons-color: #ff0070;
-
+  --menu-buttons-color-muted: rgba(255, 0, 112, 0.4);
+  --decoration-color-text: #000028;
   --font-family: "IBM Plex mono", monospace;
 }
 
@@ -20,9 +22,12 @@
   --accent-color: #ff0070;
   --text-color: #f1b2ce;
   --title-color: #DB00FF;
+  --title-color-cards: #ff0070;
   --title-second-color: #ff0070;
   --title-main-color: #ff0070;
   --decoration-color: #ff0070;
   --menu-buttons-color: #ff0070;
-
+  --menu-buttons-color-muted: rgba(255, 0, 112, 0.4);
+  --decoration-color-text: #000028;
+  
 }

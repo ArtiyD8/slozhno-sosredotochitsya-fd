@@ -9,6 +9,9 @@
   --title-main-color: #353430;
   --decoration-color: #353430;
   --menu-buttons-color: #353430;
+  --decoration-color-text: #353430;
+  --menu-buttons-color-muted: rgba(50, 49, 45, 0.4);
+  --title-color-cards: #ff8dcb;
 }
 
 
@@ -28,6 +31,9 @@
     --title-main-color: #353430;
     --decoration-color: #353430;
     --menu-buttons-color: #353430;
+    --decoration-color-text: #353430;
+    --menu-buttons-color-muted: rgba(50, 49, 45, 0.4);
+    --title-color-cards: #ff8dcb;
   }
 
   .header__rec {
