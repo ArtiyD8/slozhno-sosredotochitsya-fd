@@ -1,10 +1,11 @@
 :root {
   --page-background-image: url('../images/cover-image-dark.png');
   --page-background-color: #000028;
-
+  --buttons-color: #FF0070;
   --accent-color: #ff0070;
   --text-color: #f1b2ce;
-  --title-color: #db00ff;
+  --title-color: #DB00FF;
+  --title-second-color: #ff0070;
   --title-main-color: #ff0070;
   --decoration-color: #ff0070;
   --menu-buttons-color: #ff0070;
@@ -14,4 +15,14 @@
 
 :root.theme-dark {
   --page-background-image: url('../images/cover-image-dark.png');
+  --page-background-color: #000028;
+  --buttons-color: #FF0070;
+  --accent-color: #ff0070;
+  --text-color: #f1b2ce;
+  --title-color: #DB00FF;
+  --title-second-color: #ff0070;
+  --title-main-color: #ff0070;
+  --decoration-color: #ff0070;
+  --menu-buttons-color: #ff0070;
+
 }
