@@ -126,7 +126,6 @@
   display: block;
   white-space: normal;
   word-break: break-word;
-  hyphens: auto;
   box-sizing: border-box;
   hyphens: none;
 }
